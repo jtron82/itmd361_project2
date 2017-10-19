@@ -35,9 +35,19 @@ nav#navbar ul li a:hover {
 
 .text {
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.textone {
+  font-weight: bold;
+  font-style: italic;
 }
 
 #font {
   font-style: italic;
+  font-weight: bold;
+}
+
+.fontone {
   font-weight: bold;
 }
