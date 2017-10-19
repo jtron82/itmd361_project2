@@ -24,3 +24,51 @@ nav#navbar ul li a:hover {
 	background-color: #ccc;
 	color: #000;
 }
+
+#font {
+  font-weight: italic;
+}
+
+.color1 {
+  color: red;
+}
+
+.color2 {
+  color: orange;
+}
+
+.color3 {
+  color: yellow;
+}
+
+.color4 {
+  color: green;
+}
+
+.color5 {
+  color: blue;
+}
+
+.color6 {
+  color: purple;
+}
+
+.color7 {
+  color: indigo;
+}
+
+.color8 {
+  color: pink;
+}
+
+.color9 {
+  color: teal;
+}
+
+.color10 {
+  color: turquoise;
+}
+
+.color11 {
+  color: gray;
+}
