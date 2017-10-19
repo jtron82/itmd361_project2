@@ -46,3 +46,23 @@ nav#navbar ul li a:hover {
 	bottom: 20px;
 	right: 40px;
 }
+
+#gamelist {
+  position: relative;
+  left: 20px;
+  bottom: 8px;
+}
+
+#text {
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.colorone {
+  color: gold;
+}
+
+.colortwo {
+  color: red;
+}

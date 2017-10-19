@@ -32,3 +32,7 @@ nav#navbar ul li a:hover {
 	bottom: 20px;
 	right: 40px;
 }
+
+.text {
+  text-decoration: underline;
+}
