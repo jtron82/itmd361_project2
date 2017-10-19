@@ -24,3 +24,11 @@ nav#navbar ul li a:hover {
 	background-color: #ccc;
 	color: #000;
 }
+
+#fixedbox {
+	width: 100px;
+	height: 145px;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+}

@@ -38,3 +38,11 @@ nav#navbar ul li a:hover {
 	position: relative;
 	top: 4px;
 }
+
+#fixedbox {
+	width: 100px;
+	height: 145px;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+}
