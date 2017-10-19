@@ -1,4 +1,4 @@
-nav#vert ul li a {
+nav#navbar ul li a {
 	display: block;
 	background-color: green;
 	color: #fff;
@@ -10,6 +10,6 @@ nav#vert ul li a {
 	border-radius: 4px;
 }
 
-nav#vert ul li a:hover {
+nav#navbar ul li a:hover {
 	background-color: #800;
 }
