@@ -11,5 +11,6 @@ nav#navbar ul li a {
 }
 
 nav#navbar ul li a:hover {
-	background-color: #800;
+	background-color: #ccc;
+	color: #000;
 }
