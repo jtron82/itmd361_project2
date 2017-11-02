@@ -35,11 +35,11 @@ nav#navbar ul li a:hover {
 
 /* index CSS */
 
-#fontindex {
+#page1 #font {
   font-style: italic;
 }
 
-#fontoneindex {
+#page1 #fontone{
   font-style: italic;
 }
 
@@ -87,42 +87,8 @@ nav#navbar ul li a:hover {
   color: gray;
 }
 
-body {
+#page1 body {
   font-family: 'Ubuntu', sans-serif;
-}
-
-/* resume CSS */
-
-.textresume {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.textoneresume {
-  font-weight: bold;
-  font-style: italic;
-}
-
-#fontresume {
-  font-style: italic;
-  font-weight: bold;
-}
-
-.fontoneresume {
-  font-weight: bold;
-}
-
-#fonttworesume {
-  font-style: italic;
-  font-weight: bold;
-}
-
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
-p, ul {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* aboutme CSS */
@@ -147,7 +113,7 @@ p, ul {
   bottom: 8px;
 }
 
-#textaboutme {
+#page2 #text {
   font-weight: bold;
   font-size: 2em;
   font-style: italic;
@@ -162,23 +128,57 @@ p, ul {
   color: red;
 }
 
-#fontaboutme {
+#page2 #font {
   font-style: italic;
   font-weight: bold;
 }
 
-.fontoneaboutme {
+#page2 .fontone {
   font-weight: bold;
 }
 
-h1, h2, h3 {
+#page2 h1, h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
       
-p {
+#page2 p {
   font-family: 'Noto Sans', sans-serif;
 }  
 
-ul {  
+#page2 ul {  
   font-family: 'Cabin', sans-serif;
+}
+
+/* resume CSS */
+
+#page3 .text {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#page3 .textone {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#page3 #font {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#page3 .fontone {
+  font-weight: bold;
+}
+
+#page3 #fonttwo {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#page3 h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#page3 p, ul {
+  font-family: 'Roboto Condensed', sans-serif;
 }
