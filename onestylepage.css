@@ -25,22 +25,33 @@ nav#navbar ul li a:hover {
 	color: #000;
 }
 
-#fixedbox {
-	width: 100px;
-	height: 145px;
-	position: fixed;
-	bottom: 20px;
-	right: 40px;
+/* index CSS */
+
+#page1 h1 {
+  font-size: 2em;
+  font-weight: bold;
 }
 
-/* index CSS */
+#page1 #a {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#page1 #b {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 #page1 #font {
   font-style: italic;
+  font-weight: bold;
 }
 
-#page1 #fontone{
+#page1 #fontone {
   font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .color1 {
@@ -89,29 +100,22 @@ nav#navbar ul li a:hover {
 
 #page1 {
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 /* aboutme CSS */
-
-.relexample {
-	position: relative;
-	left: 20px;
-	bottom: 10px;
-}
 
 .firstchar {
 	color: gray;
 	font-weight: bold;
 	font-size: 1.5em;
 	position: relative;
-	top: 4px;
+	top: 3px;
 }
 
 #gamelist {
-  position: relative;
-  left: 50px;
-  bottom: 8px;
-  margin-top: 5px;
+  margin-left: 50px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -133,9 +137,16 @@ nav#navbar ul li a:hover {
 #page2 #font {
   font-style: italic;
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 #page2 .fontone {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#page2 .fonttwo {
   font-weight: bold;
 }
 
@@ -151,6 +162,14 @@ nav#navbar ul li a:hover {
 
 #page2 ul {  
   font-family: 'Cabin', sans-serif;
+}
+
+#page2 #fixedbox {
+	width: 100px;
+	height: 145px;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
 }
 
 /* resume CSS */
@@ -218,4 +237,12 @@ nav#navbar ul li a:hover {
 #page3 #d {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+#page3 #fixedbox {
+	width: 100px;
+	height: 145px;
+	position: fixed;
+	top: 20px;
+	right: 40px;
 }
