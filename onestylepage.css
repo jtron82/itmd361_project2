@@ -114,7 +114,7 @@ nav#navbar ul li a:hover {
 }
 
 #gamelist {
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -137,7 +137,7 @@ nav#navbar ul li a:hover {
 #page2 #font {
   font-style: italic;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 #page2 .fontone {
@@ -172,6 +172,11 @@ nav#navbar ul li a:hover {
 	right: 40px;
 }
 
+#page2 #a, #b {
+  margin-left: 20px;
+  line-height: 150%;
+}
+
 /* resume CSS */
 
 #page3 .text {
@@ -204,6 +209,7 @@ nav#navbar ul li a:hover {
 #page3 #fonttwo {
   font-style: italic;
   font-weight: bold;
+  line-height: 125%;
 }
 
 #page3 h1, h2, h3 {
@@ -219,24 +225,14 @@ nav#navbar ul li a:hover {
   text-align: center;
 }
 
-#page3 #a {
+#page3 #a, #b, #c, #d, #e {
   margin-top: 5px;
   margin-bottom: 5px;
+  line-height: 125%;
 }
 
-#page3 #b {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#page3 #c {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#page3 #d {
-  margin-top: 5px;
-  margin-bottom: 5px;
+#page3 #f, #g, #h {
+  line-height: 125%;
 }
 
 #page3 #fixedbox {
