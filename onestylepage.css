@@ -5,7 +5,9 @@ nav#navbar ul {
 }
 
 nav#navbar ul li {
-	margin: 5px 0;
+  margin: 5px 0px;
+  float: left;
+  margin-left: 10px;
 }
 
 nav#navbar ul li a {
@@ -33,14 +35,18 @@ nav#navbar ul li a:hover {
 }
 
 #page1 #a {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   font-weight: bold;
 }
 
 #page1 #b {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+#page1 #c {
+  margin-top: 20px;
 }
 
 #page1 #font {
@@ -52,6 +58,7 @@ nav#navbar ul li a:hover {
   font-style: italic;
   font-weight: bold;
   font-size: 1.5em;
+  margin-top: 75px;
 }
 
 .color1 {
@@ -100,7 +107,6 @@ nav#navbar ul li a:hover {
 
 #page1 {
   font-family: 'Ubuntu', sans-serif;
-  text-align: center;
 }
 
 /* aboutme CSS */
@@ -138,6 +144,7 @@ nav#navbar ul li a:hover {
   font-style: italic;
   font-weight: bold;
   font-size: 2em;
+  margin-top: 20px;
 }
 
 #page2 .fontone {
@@ -172,7 +179,12 @@ nav#navbar ul li a:hover {
 	right: 40px;
 }
 
-#page2 #a, #b {
+#page2 #a {
+  margin-left: 20px;
+  line-height: 150%;
+}
+
+#page2 #b {
   margin-left: 20px;
   line-height: 150%;
 }
@@ -199,6 +211,7 @@ nav#navbar ul li a:hover {
   font-style: italic;
   font-weight: bold;
   font-size: 2.2em;
+  margin-top: 20px;
 }
 
 #page3 #fontone {
