@@ -109,8 +109,10 @@ nav#navbar ul li a:hover {
 
 #gamelist {
   position: relative;
-  left: 20px;
+  left: 50px;
   bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #page2 #text {
@@ -139,6 +141,8 @@ nav#navbar ul li a:hover {
 
 #page2 h1, h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
       
 #page2 p {
@@ -154,20 +158,28 @@ nav#navbar ul li a:hover {
 #page3 .text {
   text-decoration: underline;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 #page3 .textone {
   font-weight: bold;
   font-style: italic;
+  text-decoration: underline;
+}
+
+#page3 .texttwo {
+  text-decoration: underline;
 }
 
 #page3 #font {
   font-style: italic;
   font-weight: bold;
+  font-size: 2.2em;
 }
 
-#page3 .fontone {
+#page3 #fontone {
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 #page3 #fonttwo {
@@ -177,8 +189,33 @@ nav#navbar ul li a:hover {
 
 #page3 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
+  font-style: italic;
 }
 
 #page3 p, ul {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+#page3 {
+  text-align: center;
+}
+
+#page3 #a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#page3 #b {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#page3 #c {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#page3 #d {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
